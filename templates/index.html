@@ -1,0 +1,354 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="{% static 'css/icon-font.css' %}">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<!--    <nav class="navbar">-->
+<!--        -->
+<!--    </nav>-->
+    <header class="header">
+        <div class="header_log-box">
+            <img src="" alt="logo" class="header_logo">
+        </div>
+        <div class="header_text-box">
+            <h1 class="heading-primary">
+                <span class="heading_primary--main">
+                    Outdoors
+                </span>
+                <span class="heading_primary--sub">
+                    is where life happens
+                </span>
+            </h1>
+            <a href="" class="btn btn-white btn-animated">Discover Tours</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section_tour"> 
+            
+            <div class="tour_text-box">
+                <h2 class="tour_heading--main">
+                    Exciting tours for adventurous people's
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col_1_0f_2">
+                    <h3 class="tour_heading--sub">
+                        By nature, you will fall in love with yourself.
+                    </h3>
+                    <p class="tour_paragraph--main">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum 
+                        sapiente aspernatur libero repellat quis consequatur ducimus quam nisi 
+                        exercitationem omnis earum qui. 
+                    </p>
+                    <h3 class="tour_heading--sub">
+                        Live adventures like you never have before
+                    </h3>
+                    <p class="tour_paragraph--main">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum 
+                        sapiente aspernatur libero repellat quis consequatur ducimus quam nisi 
+                        exercitationem omnis earum qui. 
+                    </p>
+                    <a href="" class="btn-green">Learn more &rarr;</a>
+                </div>
+                <div class="col_1_0f_2">
+                    <div class="tour_image">
+                        <img src="{% static 'img/nat-1-large.jpg' %}" alt="" class="img img_nat1">
+                        <img src="{% static 'img/nat-2-large.jpg' %}" alt="" class="img img_nat2">
+                        <img src="{% static 'img/nat-3-large.jpg' %}" alt="" class="img img_nat3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_feature">
+            <div class="row feature-box">
+                <div class="col-1-of-4">
+                    <div class="feature_box">
+                        <i class="feature_box_icon icon-basic-world"></i>
+                        <h3 class="feature_heading">
+                            Explore the world
+                        </h3>
+                        <p class="feature_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                   <div class="feature_box">
+                    <i class="feature_box_icon icon-basic-compass"></i>
+                    <h3 class="feature_heading">
+                        Meet nature
+                    </h3>
+                    <p class="feature_text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                    </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature_box">
+                        <i class="feature_box_icon icon-basic-map"></i>
+                        <h3 class="feature_heading">
+                            Find your way
+                        </h3>
+                        <p class="feature_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature_box">
+                        <i class="feature_box_icon icon-basic-heart"></i>
+                        <h3 class="feature_heading">
+                            Live a healthier life
+                        </h3>
+                        <p class="feature_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_card" id ="#section_card">
+            <div class="card_heading-box">
+                <h2 class="card_headiing--main">
+                    Most popular tours
+                </h2>
+            </div>
+            <div class="rows">
+                <div class="col-1-0f-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_pic-1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading--span">
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div class="card_details">
+                                <ul>
+                                    <li>3 day tours</li>
+                                <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-1 ">
+                            <div class="card_back--box">
+                                <div class="card_back--text">
+                                    <p class="card_price-only">Only</p>
+                                    <p class="card_price-value">$297</p>
+                                </div>
+                                    <a href="#pop_up" class="btn btn-book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>    
+
+                </div>
+                    
+                <div class="col-1-0f-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_pic-2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading--span">
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div class="card_details">
+                                <ul>
+                                    <li>3 day tours</li>
+                                <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-1 ">
+                            <div class="card_back--box">
+                                <div class="card_back--text">
+                                    <p class="card_price-only">Only</p>
+                                    <p class="card_price-value">$297</p>
+                                </div>
+                                    <a href="#pop_up" class="btn btn-book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-1-0f-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_pic-3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading--span">
+                                    The Sea Explorer
+                                </span>
+                            </h4>
+                            <div class="card_details">
+                                <ul>
+                                    <li>3 day tours</li>
+                                <li>Up to 30 people</li>
+                                    <li>2 tour guides</li>
+                                    <li>Sleep in cozy hotels</li>
+                                    <li>Difficulty: easy</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-1 ">
+                            <div class="card_back--box">
+                                <div class="card_back--text">
+                                    <p class="card_price-only">Only</p>
+                                    <p class="card_price-value">$297</p>
+                                </div>
+                                    <a href="#pop_up" class="btn btn-book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="btn--book">
+                <a href="" class="btn btn--green">Discover More</a>
+            </div>
+        </section>
+        <section class="section_stories">
+            <div class="stories_heading-box">
+                <h2 class="stories_heading--main">
+                    WE MAKE PEOPLE GENUINELY HAPPY
+                </h2>
+            </div>
+            <div class="row">
+                <div class="row_stories">
+                    <figure class="story_img">
+                        <img src="{% static 'img/nat-8.jpg' %}" alt="" class="story__img">
+                        <figcaption class="img_caption">
+                            Yulina
+                        </figcaption>
+                    </figure>
+                    <div class="story_text">
+                        <h3 class="story_heading--main">
+                            I had the best week ever with my family
+                        </h3>
+                        <p class="story__text-main">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur 
+                            ducimus quam nisi exercitationem omnis earum qui. 
+                            Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row_stories">
+                    <figure class="story_img">
+                        <img src="{% static 'img/nat-9.jpg' %}" alt="" class="story__img">
+                        <figcaption class="img_caption">
+                            Yulina
+                        </figcaption>
+                    </figure>
+                    <div class="story_text">
+                        <h3 class="story_heading--main">
+                            I had the best week ever with my family
+                        </h3>
+                        <p class="story__text-main">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur 
+                            ducimus quam nisi exercitationem omnis earum qui. 
+                            Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_read">
+                <a href="" class="btn-green">Read all stories &rarr;</a>
+            </div>
+            
+        </section>
+
+        <section class="section_book">
+            <div class="book_box">
+                <div class="book_form">
+                    <div class="book_heading">
+                        <form action="" method="post">
+                            <div class="form_heading">
+                                <h2 class="book_heading--main">
+                                    Start booking room
+                                </h2>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" class="form_input" placeholder="Full Name" id="name" required>
+                                <!-- <label for="name" class="form_label">Full Name</label> -->
+                            </div>
+                            <div class="form-input">
+                                <input type="email" class="form_input" placeholder="Email" id="email" required>
+                                <!-- <label for="email">Email</label> -->
+                            </div>
+                            <div class="radio">
+                                <div class="form-radio">
+                                    <input type="radio" name="Small" id="radio">
+                                    <label for="" class="form_radio">Small tour group </label>
+                                </div>
+                                <div class="form-radio">
+                                    <input type="radio" name="Small" id="radio">
+                                    <label for="" class="form_radio">Large tour group </label>
+                                </div>
+                            </div>
+                            <div class="form-btn">
+                                <a href="" class="btn_next">Next &rarr;</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="section_footer">
+        <h2>About Us Info</h2>
+    </footer>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up--content">
+            <div class="pop_up--left">
+                <img src="{% static 'img/nat-8.jpg' %}" alt="" class="pop_up--img">
+                <img src="{% static 'img/nat-9.jpg' %}" alt="" class="pop_up--img">
+            </div>
+            <div class="pop_up--right">
+                <a href="#section_card" class="btn_close">x</a>
+                <h2 class="popup_heading--main">
+                    start booking now
+                </h2>
+                <h4 class="popup_heading--sub">
+                    Important please read te instruction before booking
+                </h4>
+                <p class="popup_text--main">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis 
+                    mauris sit amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim 
+                    enim sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget 
+                    gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. 
+                    Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus 
+                    vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae t
+                    ortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta. 
+                </p>
+                <a href="" class="btn_book--now">Book now &rarr;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
